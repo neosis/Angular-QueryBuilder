@@ -1,0 +1,13 @@
+import { Directive, TemplateRef } from '@angular/core';
+export class QueryButtonGroupDirective {
+    constructor(template) {
+        this.template = template;
+    }
+}
+QueryButtonGroupDirective.decorators = [
+    { type: Directive, args: [{ selector: '[queryButtonGroup]' },] }
+];
+QueryButtonGroupDirective.ctorParameters = () => [
+    { type: TemplateRef }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicXVlcnktYnV0dG9uLWdyb3VwLmRpcmVjdGl2ZS5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvbmVvc2lzL3Byb2plY3RzL0FuZ3VsYXItUXVlcnlCdWlsZGVyL3Byb2plY3RzL2FuZ3VsYXIyLXF1ZXJ5LWJ1aWxkZXIvc3JjLyIsInNvdXJjZXMiOlsibGliL3F1ZXJ5LWJ1aWxkZXIvcXVlcnktYnV0dG9uLWdyb3VwLmRpcmVjdGl2ZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsU0FBUyxFQUFFLFdBQVcsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUd2RCxNQUFNLE9BQU8seUJBQXlCO0lBQ3BDLFlBQW1CLFFBQTBCO1FBQTFCLGFBQVEsR0FBUixRQUFRLENBQWtCO0lBQUcsQ0FBQzs7O1lBRmxELFNBQVMsU0FBQyxFQUFDLFFBQVEsRUFBRSxvQkFBb0IsRUFBQzs7O1lBRnZCLFdBQVciLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBEaXJlY3RpdmUsIFRlbXBsYXRlUmVmIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5cbkBEaXJlY3RpdmUoe3NlbGVjdG9yOiAnW3F1ZXJ5QnV0dG9uR3JvdXBdJ30pXG5leHBvcnQgY2xhc3MgUXVlcnlCdXR0b25Hcm91cERpcmVjdGl2ZSB7XG4gIGNvbnN0cnVjdG9yKHB1YmxpYyB0ZW1wbGF0ZTogVGVtcGxhdGVSZWY8YW55Pikge31cbn1cbiJdfQ==

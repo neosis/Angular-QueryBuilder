@@ -1,0 +1,13 @@
+import { Directive, TemplateRef } from '@angular/core';
+export class QueryEmptyWarningDirective {
+    constructor(template) {
+        this.template = template;
+    }
+}
+QueryEmptyWarningDirective.decorators = [
+    { type: Directive, args: [{ selector: '[queryEmptyWarning]' },] }
+];
+QueryEmptyWarningDirective.ctorParameters = () => [
+    { type: TemplateRef }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicXVlcnktZW1wdHktd2FybmluZy5kaXJlY3RpdmUuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL25lb3Npcy9wcm9qZWN0cy9Bbmd1bGFyLVF1ZXJ5QnVpbGRlci9wcm9qZWN0cy9hbmd1bGFyMi1xdWVyeS1idWlsZGVyL3NyYy8iLCJzb3VyY2VzIjpbImxpYi9xdWVyeS1idWlsZGVyL3F1ZXJ5LWVtcHR5LXdhcm5pbmcuZGlyZWN0aXZlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxTQUFTLEVBQUUsV0FBVyxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBR3ZELE1BQU0sT0FBTywwQkFBMEI7SUFDckMsWUFBbUIsUUFBMEI7UUFBMUIsYUFBUSxHQUFSLFFBQVEsQ0FBa0I7SUFBRyxDQUFDOzs7WUFGbEQsU0FBUyxTQUFDLEVBQUMsUUFBUSxFQUFFLHFCQUFxQixFQUFDOzs7WUFGeEIsV0FBVyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IERpcmVjdGl2ZSwgVGVtcGxhdGVSZWYgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuQERpcmVjdGl2ZSh7c2VsZWN0b3I6ICdbcXVlcnlFbXB0eVdhcm5pbmddJ30pXG5leHBvcnQgY2xhc3MgUXVlcnlFbXB0eVdhcm5pbmdEaXJlY3RpdmUge1xuICBjb25zdHJ1Y3RvcihwdWJsaWMgdGVtcGxhdGU6IFRlbXBsYXRlUmVmPGFueT4pIHt9XG59XG4iXX0=

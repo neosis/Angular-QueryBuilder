@@ -1,0 +1,13 @@
+import { Directive, TemplateRef } from '@angular/core';
+export class QueryRemoveButtonDirective {
+    constructor(template) {
+        this.template = template;
+    }
+}
+QueryRemoveButtonDirective.decorators = [
+    { type: Directive, args: [{ selector: '[queryRemoveButton]' },] }
+];
+QueryRemoveButtonDirective.ctorParameters = () => [
+    { type: TemplateRef }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicXVlcnktcmVtb3ZlLWJ1dHRvbi5kaXJlY3RpdmUuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL25lb3Npcy9wcm9qZWN0cy9Bbmd1bGFyLVF1ZXJ5QnVpbGRlci9wcm9qZWN0cy9hbmd1bGFyMi1xdWVyeS1idWlsZGVyL3NyYy8iLCJzb3VyY2VzIjpbImxpYi9xdWVyeS1idWlsZGVyL3F1ZXJ5LXJlbW92ZS1idXR0b24uZGlyZWN0aXZlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxTQUFTLEVBQUUsV0FBVyxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBR3ZELE1BQU0sT0FBTywwQkFBMEI7SUFDckMsWUFBbUIsUUFBMEI7UUFBMUIsYUFBUSxHQUFSLFFBQVEsQ0FBa0I7SUFBRyxDQUFDOzs7WUFGbEQsU0FBUyxTQUFDLEVBQUMsUUFBUSxFQUFFLHFCQUFxQixFQUFDOzs7WUFGeEIsV0FBVyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IERpcmVjdGl2ZSwgVGVtcGxhdGVSZWYgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcblxuQERpcmVjdGl2ZSh7c2VsZWN0b3I6ICdbcXVlcnlSZW1vdmVCdXR0b25dJ30pXG5leHBvcnQgY2xhc3MgUXVlcnlSZW1vdmVCdXR0b25EaXJlY3RpdmUge1xuICBjb25zdHJ1Y3RvcihwdWJsaWMgdGVtcGxhdGU6IFRlbXBsYXRlUmVmPGFueT4pIHt9XG59XG4iXX0=

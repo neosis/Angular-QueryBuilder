@@ -1,0 +1,13 @@
+import { Directive, TemplateRef } from '@angular/core';
+export class QueryOperatorDirective {
+    constructor(template) {
+        this.template = template;
+    }
+}
+QueryOperatorDirective.decorators = [
+    { type: Directive, args: [{ selector: '[queryOperator]' },] }
+];
+QueryOperatorDirective.ctorParameters = () => [
+    { type: TemplateRef }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicXVlcnktb3BlcmF0b3IuZGlyZWN0aXZlLmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9uZW9zaXMvcHJvamVjdHMvQW5ndWxhci1RdWVyeUJ1aWxkZXIvcHJvamVjdHMvYW5ndWxhcjItcXVlcnktYnVpbGRlci9zcmMvIiwic291cmNlcyI6WyJsaWIvcXVlcnktYnVpbGRlci9xdWVyeS1vcGVyYXRvci5kaXJlY3RpdmUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFNBQVMsRUFBRSxXQUFXLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFHdkQsTUFBTSxPQUFPLHNCQUFzQjtJQUNqQyxZQUFtQixRQUEwQjtRQUExQixhQUFRLEdBQVIsUUFBUSxDQUFrQjtJQUFHLENBQUM7OztZQUZsRCxTQUFTLFNBQUMsRUFBQyxRQUFRLEVBQUUsaUJBQWlCLEVBQUM7OztZQUZwQixXQUFXIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRGlyZWN0aXZlLCBUZW1wbGF0ZVJlZiB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuXG5ARGlyZWN0aXZlKHtzZWxlY3RvcjogJ1txdWVyeU9wZXJhdG9yXSd9KVxuZXhwb3J0IGNsYXNzIFF1ZXJ5T3BlcmF0b3JEaXJlY3RpdmUge1xuICBjb25zdHJ1Y3RvcihwdWJsaWMgdGVtcGxhdGU6IFRlbXBsYXRlUmVmPGFueT4pIHt9XG59XG4iXX0=

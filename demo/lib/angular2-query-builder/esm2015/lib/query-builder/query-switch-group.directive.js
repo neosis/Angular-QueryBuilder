@@ -1,0 +1,13 @@
+import { Directive, TemplateRef } from '@angular/core';
+export class QuerySwitchGroupDirective {
+    constructor(template) {
+        this.template = template;
+    }
+}
+QuerySwitchGroupDirective.decorators = [
+    { type: Directive, args: [{ selector: '[querySwitchGroup]' },] }
+];
+QuerySwitchGroupDirective.ctorParameters = () => [
+    { type: TemplateRef }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicXVlcnktc3dpdGNoLWdyb3VwLmRpcmVjdGl2ZS5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvbmVvc2lzL3Byb2plY3RzL0FuZ3VsYXItUXVlcnlCdWlsZGVyL3Byb2plY3RzL2FuZ3VsYXIyLXF1ZXJ5LWJ1aWxkZXIvc3JjLyIsInNvdXJjZXMiOlsibGliL3F1ZXJ5LWJ1aWxkZXIvcXVlcnktc3dpdGNoLWdyb3VwLmRpcmVjdGl2ZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsU0FBUyxFQUFFLFdBQVcsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUd2RCxNQUFNLE9BQU8seUJBQXlCO0lBQ3BDLFlBQW1CLFFBQTBCO1FBQTFCLGFBQVEsR0FBUixRQUFRLENBQWtCO0lBQUcsQ0FBQzs7O1lBRmxELFNBQVMsU0FBQyxFQUFDLFFBQVEsRUFBRSxvQkFBb0IsRUFBQzs7O1lBRnZCLFdBQVciLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBEaXJlY3RpdmUsIFRlbXBsYXRlUmVmIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5cbkBEaXJlY3RpdmUoe3NlbGVjdG9yOiAnW3F1ZXJ5U3dpdGNoR3JvdXBdJ30pXG5leHBvcnQgY2xhc3MgUXVlcnlTd2l0Y2hHcm91cERpcmVjdGl2ZSB7XG4gIGNvbnN0cnVjdG9yKHB1YmxpYyB0ZW1wbGF0ZTogVGVtcGxhdGVSZWY8YW55Pikge31cbn1cbiJdfQ==
